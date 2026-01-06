@@ -29,7 +29,10 @@
 
 
 header{
-    background-color: rgb(199, 157, 106);
+    background: url("./images/developer.png"), url("./images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #F5F5F5;
     padding-top: 50px;
 }
 
@@ -49,6 +52,7 @@ nav{
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+    padding-left: 30px;
 
 }
 
@@ -57,12 +61,66 @@ nav .menu{
     list-style: none;
     gap: 51px;
     align-items: center;
+    padding-left: 60px;
 
 }
 
 nav .menu a{
 text-decoration: none;
 }
+
+
+/* banner */
+
+#banner{
+    /* border: 1px solid black; */
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-text{
+
+    width: 585px;
+}
+
+
+#banner .banner-text h2{
+font-size: 45px;
+width: 180;
+height: 64;
+color: #474747;
+font-weight: 600;
+}
+
+#banner .banner-text h1{
+    font-size: 80px;
+    width: 540px;
+    height: 96px;
+    color: #212121;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+
+#banner .banner-image img{
+    max-width: 583px;
+    max-height: 677;
+    vertical-align: middle;
+}
+
+#banner .banner-text p{
+    font-size: 18px;
+    line-height: 30px;
+    color:black;
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 
