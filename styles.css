@@ -23,6 +23,7 @@
     font-size: 20px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
     /* header */
@@ -31,7 +32,7 @@
 header{
     background: url("./images/developer.png"), url("./images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 38px , bottom right;
     background-color: #F5F5F5;
     padding-top: 50px;
     
@@ -131,6 +132,8 @@ font-weight: 600;
     margin: 0 auto;
     align-items: center;
     padding: 131px 156px;
+    background-color: rgba(222, 184, 135, 0.705);
+    border-radius: 10px;
 }
     
     .section-heading{
@@ -189,6 +192,7 @@ font-weight: 600;
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 
 #skills .skill-container .skill-box{
@@ -345,7 +349,7 @@ footer .footer-container{
 .footer-container form input[type="textarea"]{
     width: 460px;
     padding: 18px 31px ;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
     border-radius: 5px;
     color: #757575;
 
